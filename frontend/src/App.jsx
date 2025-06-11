@@ -1,9 +1,10 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 import Home from "./routes/Home"
-import Footer from "./routes/Error"
-
+import Error from "./routes/Error"
+import Login from "./routes/Login"
+import Sobre from "./routes/Sobre"
 import "./index.css"
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <Nav/>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Sobre" element={<Sobre />} />
           <Route path="*" element={<Error />} />
         </Routes>
       <Footer/>
