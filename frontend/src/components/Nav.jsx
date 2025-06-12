@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <>
-      <header className='bg-[#fff]'>
+      <header className='bg-[#e6e6fa]'>
         <div className='mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8'>
-          <Link to="/" className='block text-teal-600'>Home</Link>
+          <Link to="/" className='block text-teal-800'>Hospital Sabará</Link>
 
           <div className='flex flex-1 items-center justify-end md:justify-between'>
             <nav aria-label='Global' className='hidden md:block'>
