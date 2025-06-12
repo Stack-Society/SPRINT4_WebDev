@@ -4,7 +4,9 @@ import Footer from "./components/Footer"
 import Home from "./routes/Home"
 import Error from "./routes/Error"
 import Login from "./routes/Login"
+import Registrar from "./routes/Registrar"
 import Sobre from "./routes/Sobre"
+import Contato from "./routes/Contato"
 import "./index.css"
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/Registrar" element={<Registrar />} />
           <Route path="/Sobre" element={<Sobre />} />
+          <Route path="/Contato" element={<Contato />} />
           <Route path="*" element={<Error />} />
         </Routes>
       <Footer/>
