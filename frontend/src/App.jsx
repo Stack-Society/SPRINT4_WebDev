@@ -5,7 +5,7 @@ import Home from "./routes/Home"
 import Error from "./routes/Error"
 import Login from "./routes/Login"
 import Registrar from "./routes/Registrar"
-import Sobre from "./routes/Sobre"
+import Estatistica from "./routes/Estastistica"
 import Contato from "./routes/Contato"
 import "./index.css"
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Registrar" element={<Registrar />} />
-          <Route path="/Sobre" element={<Sobre />} />
+          <Route path="/Estatistica" element={<Estatistica />} />
           <Route path="/Contato" element={<Contato />} />
           <Route path="*" element={<Error />} />
         </Routes>

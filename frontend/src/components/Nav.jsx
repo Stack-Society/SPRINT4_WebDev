@@ -16,7 +16,7 @@ const Nav = () => {
                 </li>
                 
                 <li>
-                  <Link to="/Sobre" className='text-gray-500 transition hover:text-gray-500/75'>Sobre</Link>
+                  <Link to="/Estatistica" className='text-gray-500 transition hover:text-gray-500/75'>Estatisticas</Link>
                 </li>
 
                 <li>
