@@ -31,7 +31,7 @@ const Home = () => {
             alt=""
             className='border-10 border-green-200' 
             />
-            <h2 className='text-2xl font-semibold mt-3'>{item.refeicao}</h2>
+            <h2 className='text-2xl text-black font-semibold mt-3'>{item.refeicao}</h2>
             <p className='text-gray-600'>{item.descricao}</p>
             <button className='mt-3 bg-[#008000] p-3 rounded text-white hover:bg-[#808000] transition-colors duration-300'>Pedir</button>
           </div>

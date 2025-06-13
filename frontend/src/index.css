@@ -4,3 +4,15 @@
 @theme {
     --font-roboto: "Roboto", sans-serif;
 }
+
+@layer base {
+  html {
+    /* Força o darkMode por classe */
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+    transition: background-color 0.3 ease, color 0.3 ease;
+  }
+}
