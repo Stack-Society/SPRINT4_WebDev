@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Registrar = () => {
   const [email, setEmail] = useState('');
@@ -9,6 +10,8 @@ const Registrar = () => {
   const validarEmail = (email) => {
     return /\S+@\S+\.\S+/.test(email);
   };
+
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,6 +31,7 @@ const Registrar = () => {
 
     setErro('');
     alert(`Conta criada com sucesso!\nEmail: ${email}`);
+    navigate('/Login');
   };
 
   return (
