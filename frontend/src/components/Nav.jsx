@@ -1,13 +1,13 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { ThemeContext } from './Themecontext'; // ajuste o caminho se estiver em outra pasta
+import { ThemeContext } from './Themecontext'; 
 
 const Nav = () => {
   const { isDarkMode, toggleTheme } = useContext(ThemeContext);
 
   return (
     <>
-      <header className='bg-[#e6e6fa] dark:bg-gray-800'>
+      <header className='dark:bg-gray-800'>
         <div className='mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8'>
           <Link to="/" className='block text-teal-800 dark:text-white'>Hospital Sabará</Link>
 

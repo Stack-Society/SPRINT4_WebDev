@@ -6,7 +6,6 @@ const Login = () => {
   const [erro, setErro] = useState('');
 
   const validarEmail = (email) => {
-    // Validação simples de email (checa se tem @ e .)
     return /\S+@\S+\.\S+/.test(email);
   };
 

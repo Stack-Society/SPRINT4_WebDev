@@ -29,7 +29,7 @@ const Home = () => {
             <img 
             src={item.imagem} 
             alt=""
-            className='border-10 border-green-200' 
+            className='border-10 border-green-400' 
             />
             <h2 className='text-2xl text-black font-semibold mt-3'>{item.refeicao}</h2>
             <p className='text-gray-600'>{item.descricao}</p>
